@@ -1,0 +1,60 @@
+/* CSS untuk mengatur ukuran kotak formulir */
+form {
+  width: 100%; /* Lebar form */
+  margin: 0 auto; /* Posisi tengah */
+}
+
+label {
+  display: block; /* Memastikan setiap label dalam baris yang berbeda */
+  margin-bottom: 0px; /* Jarak antara label */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100 /* Lebar input */
+  padding: 10px; /* Padding dalam input */
+  margin-bottom: 5px; /* Jarak antara input */
+  box-sizing: border-box; /* Termasuk padding dan border dalam ukuran total */
+}
+
+input[type="submit"] {
+  width: 100%; /* Lebar tombol kirim */
+  padding: 10px; /* Padding dalam tombol */
+  background-color: #ff6600; /* Warna latar tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Tanpa border */
+  border-radius: 4px; /* Border radius */
+  cursor: pointer; /* Mengubah kursor menjadi tanda panah saat mengarah ke tombol */
+}
+
+input[type="submit"]:hover {
+  background-color: #ff6600; /* Warna latar saat tombol dihover */
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
